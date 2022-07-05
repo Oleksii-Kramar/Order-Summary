@@ -17,7 +17,6 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color: #fff;
     width: 250px;
     border-radius: 15px;
@@ -40,6 +39,7 @@ body {
 .music-plan {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 20px;
 }
 
@@ -71,7 +71,7 @@ body {
     cursor: pointer;
 }
 
-.second-btn {
+.cancel-link {
     border: none;
     font-size: 12px;
     margin-top: 5px;
