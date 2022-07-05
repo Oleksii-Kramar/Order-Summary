@@ -71,10 +71,11 @@ body {
 
 .main-btn {
     width: 200px;
-    height: 35px;
+    height: 30px;
     margin-top: 20px;
-    background-color: blue;
-    border-radius: 15px;
+    background-color: rgb(72, 72, 200);
+    border-radius: 8px;
+    border: none;
     color: white;
     cursor: pointer;
 }
