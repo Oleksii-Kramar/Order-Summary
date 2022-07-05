@@ -21,20 +21,28 @@ body {
     width: 250px;
     border-radius: 15px;
     margin-top: 80px;
+}
+
+.card-content {
     padding: 20px;
 }
 
 .card_img {
      width: 100%;
+     border-radius: 15px 15px 0 0;
+    
 }
 
 .header {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
     margin-bottom: 15px;
 }
 
+.text {
+    text-align: center;
+    font-size: 14px;
+}
 
 .music-plan {
     display: flex;
