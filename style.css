@@ -15,6 +15,9 @@ body {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #fff;
     width: 250px;
     border-radius: 15px;
@@ -26,22 +29,13 @@ body {
      width: 100%;
 }
 
-.main-btn {
-    width: 200px;
-    height: 35px;
+.header {
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
-    background-color: blue;
-    border-radius: 15px;
-    color: white;
-    cursor: pointer;
+    margin-bottom: 15px;
 }
 
-.second-btn {
-    border: none;
-    font-size: 12px;
-    margin-top: 5px;
-    cursor: pointer;
-}
 
 .music-plan {
     display: flex;
@@ -65,4 +59,21 @@ body {
     flex-direction: column;
     align-items: center;
     
+}
+
+.main-btn {
+    width: 200px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: blue;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.second-btn {
+    border: none;
+    font-size: 12px;
+    margin-top: 5px;
+    cursor: pointer;
 }
